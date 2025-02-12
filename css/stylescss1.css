@@ -12,7 +12,7 @@
 
 h1 {
 font-family: "impact", sans serif; /*change la police du titre*/
-font-size: 70px; /*taille de la police*/
+font-size: 450%; /*taille de la police*/
 font-weight: 550; /*Gras*/
 color:lightblue; /*titre principal <h1> écrit en bleu*/
 z-index: 2;
@@ -20,7 +20,7 @@ z-index: 2;
 
 h2 {
 font-family: "Caesar Dressing", sans serif;
-font-size: 60px;
+font-size: 400%;
 color: pink;
 z-index: 1;
 }
@@ -28,7 +28,7 @@ z-index: 1;
 h4 {
 font-family: "Darumadrop One";
 letter-spacing: 6px;
-font-size: 20px;
+font-size: 130%;
 color: white;
 z-index: 2;
 font-weight: normal;
@@ -46,12 +46,12 @@ background-color: pink;
 
 img {
 z-index: 2;
-border-radius: 15px;
+border-radius: 5%;
 }
 
 p {
 font-family: "serif";
-font-size: 20px;
+font-size: 130%;
 color: white;
 z-index: 2;
 line-height: 1.6;
@@ -77,7 +77,7 @@ z-index: 2;
 
 .content-wrapper {
     position: relative;
-    padding: 30px;
+    padding: 3%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,7 +93,7 @@ z-index: 2;
     background-color: black;
     opacity: 0.5;
     z-index: 0; 
-	border-radius: 50px;
+	border-radius: 5%;
 }
 
 .content-wrapper h2 {
@@ -102,12 +102,12 @@ z-index: 2;
 }
 
 .content-wrapper img {
-    margin-right: 60px;
-	margin-left: 150px;
+    margin-right: 6%;
+	margin-left: 15%;
 }
 
 .content-wrapper h2 {
     margin: 0;
     text-align: left;
-    max-width: 200px; /* Limite la largeur du texte pour une bonne mise en page */
+    max-width: 200%; /* Limite la largeur du texte pour une bonne mise en page */
 }
