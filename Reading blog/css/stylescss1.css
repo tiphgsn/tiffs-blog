@@ -1,0 +1,113 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bonbon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kranky&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slackside+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+
+
+h1 {
+font-family: "impact", sans serif; /*change la police du titre*/
+font-size: 70px; /*taille de la police*/
+font-weight: 550; /*Gras*/
+color:lightblue; /*titre principal <h1> écrit en bleu*/
+z-index: 2;
+}
+
+h2 {
+font-family: "Caesar Dressing", sans serif;
+font-size: 60px;
+color: pink;
+z-index: 1;
+}
+
+h4 {
+font-family: "Darumadrop One";
+letter-spacing: 6px;
+font-size: 20px;
+color: white;
+z-index: 2;
+font-weight: normal;
+}
+
+body {
+margin: 0;
+padding: 0;
+height: 100vh;
+box-sizing: border-box;
+background-image: url("https://i.pinimg.com/736x/d3/b3/c7/d3b3c71df157c45cb1b44a7a80bb53aa.jpg");
+background-size: cover;
+background-color: pink;
+}
+
+img {
+z-index: 2;
+border-radius: 15px;
+}
+
+p {
+font-family: "serif";
+font-size: 20px;
+color: white;
+z-index: 2;
+line-height: 1.6;
+}
+h3 {
+font-weight: 700;
+z-index: 2;
+}
+h5 {
+font-family: "arial", sans serif;
+font-weight: 700;
+color: lightblue;
+z-index: 2;
+}
+a {
+font-family : "arial", sans serif;
+color : lightblue;
+font-weight: 700;
+text-decoration: none;
+font-size: 15px;
+z-index: 2;
+}
+
+.content-wrapper {
+    position: relative;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 50;
+    left: 30;
+    width: 80%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 0; 
+	border-radius: 50px;
+}
+
+.content-wrapper h2 {
+    position: relative; 
+    z-index: 1; 
+}
+
+.content-wrapper img {
+    margin-right: 60px;
+	margin-left: 150px;
+}
+
+.content-wrapper h2 {
+    margin: 0;
+    text-align: left;
+    max-width: 200px; /* Limite la largeur du texte pour une bonne mise en page */
+}
