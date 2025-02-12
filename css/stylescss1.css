@@ -52,7 +52,7 @@ p {
     line-height: 1.6;
     max-width: 50%;
     margin: auto;
-    text-align: justify;
+    text-align: justify; /* Ensures justification everywhere */
 }
 
 /* Links */
@@ -143,9 +143,10 @@ a {
         flex-direction: column;
     }
 
+    /* Keeps paragraph justified on mobile */
     .intro-text {
         max-width: 90%;
-        text-align: center;
+        text-align: justify;
     }
 
     .month-links {
