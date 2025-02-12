@@ -95,7 +95,7 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     gap: 25px; /* Increased spacing between columns */
-    max-width: 80%;
+    max-width: 60%;
     padding: 10px 0;
 }
 
