@@ -135,12 +135,16 @@ a {
 
     .intro-text {
         max-width: 90%;
-        text-align: center;
+        text-align: justify;
     }
 
     .month-links {
-        flex-direction: column;
-        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 per row */
+        gap: 10px;
+        text-align: center;
+        max-width: 400px;
+        margin: auto;
     }
 
     .categories img {
